@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { initializeApp } from "firebase/app";
+import { firebaseConfig } from './firebaseConfig';
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Version 1.1
         </p>
         <a
           className="App-link"
