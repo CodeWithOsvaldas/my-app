@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app";
 import { firebaseConfig } from './firebaseConfig';
 
 // Initialize Firebase
+// eslint-disable-next-line no-unused-vars
 const app = initializeApp(firebaseConfig);
 
 function App() {
