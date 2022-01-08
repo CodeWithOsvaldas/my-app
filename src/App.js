@@ -1,19 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from './firebaseConfig';
 
 // Initialize Firebase
+// eslint-disable-next-line no-unused-vars
 const app = initializeApp(firebaseConfig);
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="container">
+          <span className="react-logo">
+            <span className="nucleo"></span>
+          </span>
+        </div>
         <p>
-          Version 1.1
+          Version 2
         </p>
         <a
           className="App-link"
